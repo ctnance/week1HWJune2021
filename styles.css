@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: lemonchiffon;
+}
+
+main {
+  background-color: #fff;
+  display: flex;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 4px 4px 16px hsla(0, 0%, 20%, 0.5);
+}
+
+section {
+  padding: 3em 0.75em;
+}
+
+section > div {
+  margin-bottom: 1.5em;
+}
+
+section p {
+  font-size: 1.475rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: normal;
+}
+
+ul {
+  text-decoration: none;
+  padding: 0;
+  margin-bottom: 5em;
+}
+
+li {
+  font-size: 2.5rem;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+}
+
+a:focus,
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+audio {
+  display: block;
+}
+
+.social-section {
+  align-self: center;
+}
+
+.social-section img {
+  width: 92%;
+}
+
+.contact-section {
+  border-left: 0.75em solid black;
+  border-right: 0.75em solid black;
+}
+
+.logo {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.auction-section h1 {
+  border-top: 0.3em solid black;
+  border-bottom: 0.3em solid black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0.4em 0 0.25em;
+}
+
+.auction-section img:last-child {
+  margin-top: 1em;
+}
+
+.audio-player {
+  margin: 0;
+}
